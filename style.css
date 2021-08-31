@@ -1,0 +1,94 @@
+
+:root {
+  
+  --bgColor: hsl(320.9,32.9%,32.7%);
+  --primaryColor1: hsl(186.6,25.9%,9%);
+  
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -outline: 1px dashed white;
+  color: white;
+}
+
+body {
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--bgColor);
+}
+
+.dashboard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainContainer {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.headerSection {
+  width: 100%;
+  height: auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.bodySection {
+  width: 100%;
+  height: auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footerSection {
+  width: 100%;
+  height: auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.rowBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSection .rowBox.a {
+  height: 34px;
+}
+
+.headerSection .rowBox.b {
+  height: 56px;
+  font-size: 32px;
+  
+}
+
+.headerSection .rowBox.b span {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 6px;
+}
+
